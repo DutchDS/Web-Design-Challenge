@@ -45,43 +45,65 @@
       </nav>
 
       <!-- Start of the content -->
-      <main class="container">
-        <div class="box-set">
-            <figure class="box1">
-            <section id="main-bio">
-                <section id="figure">
-                    <h3 id="bio-name">Summary: Latitude vs X</h3>
-                    <img id="bio-image" src="assets/images/Lat_vs_Temp.png" alt="Latitude vs X">
-                </section>
-                <p id="pbox">The purpose of this project was to analyse how weather changes as you get close to the equator. To accomplish this we first pulled data from 500 randomly chosen city around the world, using an OpenWeatherMap API. 
-                  <br>
-                  <br>
-                      After assembling the dataset, we used MatPlotLib to plot various aspects of the weather latitute. Factors we looked at were temperature, cloudiness, wind speed and humidity. This side provides the source data and visualisations created as part of the analysis, as well as explanations and descriptions and any trend or correlations witnessed </p>
-            </section>
-            </figure>
-        <!-- </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-s-12">
+              <section id="figure">
+                <br>
+                <h3>Summary: Latitude vs X</h3>
+                <br>
+                <img id="lat-image" src="assets/images/Lat_vs_Temp.png" width=60% alt="Latitude vs X">
+
+                <p id="pbox">The purpose of this project was to analyse how weather changes as you get close to the equator. To
+                accomplish this we first pulled data from 500 randomly chosen city around the world, using an OpenWeatherMap
+                API.
+                <br>
+                <br>
+                After assembling the dataset, we used MatPlotLib to plot various aspects of the weather latitute. Factors we
+                looked at were temperature, cloudiness, wind speed and humidity. This side provides the source data and
+                visualisations created as part of the analysis, as well as explanations and descriptions and any trend or
+                correlations witnessed </p>
+          </section>
+          </div>
     
-        <div class="box-set"> -->
-            <figure class="box2">
-            <aside id="contact-info">
-                <h3 id="bio-name">Visualisations</h3>
-                    <a href="viz1.html"> 
-                      <img id="lat_image" src="assets/images/Lat_vs_Cloud.png" alt="Latitude vs Cloudiness"> 
-                    </a> 
-                    <a href="viz2.html"> 
-                      <img id="lat_image" src="assets/images/Lat_vs_Humid.png" alt="Latitude vs Humidity"> 
-                    </a> 
-                    <a href="viz3.html"> 
-                      <img id="lat_image" src="assets/images/Lat_vs_Temp.png" alt="Latitude vs Temperature"> 
-                    </a> 
-                    <a href="viz4.html"> 
-                      <img id="lat_image" src="assets/images/Lat_vs_Wind.png" alt="Latitutde vs Wind"> 
-                    </a>   
-            </aside>
-        </figure>
-        </div>  
-      </main>
-    
+          <div class="col-lg-5 col-s-12">
+            <br>
+            <h3>Visualizations</h3>
+            <br>
+
+                   <!-- ********************************************************************************************** -->
+        <!-- Grid within the grid -->
+        <!-- ********************************************************************************************** -->
+        <div class="row">
+
+          <div class="col-lg-6 col-xs-3">
+              <a href="viz1.html">
+                <img width=100% src="assets/images/Lat_vs_Cloud.png" alt="...">
+              </a>
+          </div>
+
+          <div class="col-lg-6 col-xs-3">
+            <a href="viz2.html">
+              <img width=100% src="assets/images/Lat_vs_Humid.png" alt="...">
+            </a>
+          </div>
+
+          <div class="col-lg-6 col-xs-3">
+            <a href="viz3.html">
+              <img width=100% src="assets/images/Lat_vs_Temp.png" alt="...">
+            </a>
+          </div>
+
+          <div class="col-lg-6 col-xs-3">
+            <a href="viz4.html">
+              <img width=100% src="assets/images/Lat_vs_Wind.png" alt="...">
+            </a>
+          </div>
+
+        </div>
+            </div>  
+          </div>
+      </div>
 
     <div>
         <div class = "box-set">

@@ -1,9 +1,13 @@
+/* ****************************************************************** */
+/* Tag settings: */
+/* ****************************************************************** */
+
 body {
   padding: 0;
   margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  /* line-height: 150%; */
   color: #333;
   background: #efeee7;
 }
@@ -13,18 +17,35 @@ header {
 }
 
 h2 {
-  margin: 0;
+
   margin-left: 110px;
+  /* justify-content: center; */
   color: #efeee7;
   background-color: rgb(149, 180, 211);
   padding: 15px;
   font-size: 28px;
 }
 
+
 h3 {
+  margin: 0;
   color: #efeee7;
   background-color: rgb(149, 180, 211);
   padding: 15px;
+  font-size: 28px;
+}
+
+h4 {
+  color: #efeee7;
+  background-color: rgb(149, 180, 211);
+  padding: 15px;
+}
+
+h5 {
+  color: #efeee7;
+  background-color: rgb(149, 180, 211);
+  padding: 15px;
+  font-size:15px;
 }
 
 footer {
@@ -43,12 +64,18 @@ footer {
 p {
   margin-bottom: 5px;
   line-height: 150%;
+  float: left;
 }
 
 #pbox {
   margin: 20px;
   font-size: 16px;
 }
+
+/* ****************************************************************** */
+/* Navigation bar settings: */
+/* ****************************************************************** */
+
 .navbar-brand { 
   padding: 0; 
   margin: 0;
@@ -61,6 +88,11 @@ p {
 
 }
 
+.dropdown-item {
+  color:   #efeee7;
+}
+
+.dropdown-menu,
 .navbar-expand-lg {
   background-color: rgb(51, 71, 100);
 }
@@ -70,6 +102,14 @@ p {
 .navbar-light .navbar-toggler-icon {
   color:  #efeee7;
 }
+
+#lat_image {
+    float: left;
+}
+
+/* ****************************************************************** */
+/* Box settings: */
+/* ****************************************************************** */
 
 .box1 {
   box-sizing: border-box;
@@ -103,38 +143,11 @@ p {
   background-color: green;
 }
 
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
-}
+/* ****************************************************************** */
+/* Media Query settings: */
+/* ****************************************************************** */
 
-#figure {
-  position: relative;
-}
-
-#bio-name {
-  position: relative;
-  margin: 20px;
-  font-size: 28px;
-}
-
-#main-bio,
-#contact-info {
-  margin-top: 20px;
-}
- 
-#bio-image {
-  width: 300px;
-  margin: 10px;
-}
-
-#lat_image {
-  width: 200px;
-  margin: 10px;
-}
-/* Here we define some styles that will ONLY be applied at screen sizes below 480 pixels */
-@media (max-width: 769px) {
+@media (max-width: 500px) {
   .box1 {
     position: static;
     width: 90%;
@@ -145,15 +158,3 @@ p {
     float: left;
     width: 90%;
   }
-
-  @media (max-width: 400px) {
-    .box1 {
-      position: absolute;
-      width: 100%;
-    }
-  
-    .box2 {
-      position: absolute;
-      float: left;
-      width: 100%;
-    }
