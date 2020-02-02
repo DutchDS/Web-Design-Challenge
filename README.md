@@ -15,7 +15,6 @@ On a large screen:
 
 ![Large_screen.png](Images/Large_screen.png) 
 
-
 On a small screen:
 
 ![Small_screen.png](Images/Small_screen.png) 
